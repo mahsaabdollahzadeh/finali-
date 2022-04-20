@@ -1,0 +1,28 @@
+  version: '3.9'
+  services:
+    backend:
+      build:
+        context: .
+        dockerfile: Dockerfile
+      ports:
+        - 8000:8000
+      volumes:
+        - .:/app
+      depends_on:
+        - db
+
+      db:
+        image: mysql:5.7.22
+        restart: always
+        envireonment:
+          MYSQL_DATABASE: admin
+          MYSQL_USER: root
+          MYSQL_PASSWORD: root
+          MYSQL_ROOT_PASSWORD: root
+        VOLUMES:
+          - .dbdata:/var/lib/mysql
+        PORTS:
+          - 33066:3306
+
+
+
