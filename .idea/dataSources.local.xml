@@ -21,17 +21,17 @@
       </ssl-config>
     </data-source>
     <data-source name="intersystems  IRIS [2]" uuid="8253bf0d-f14f-4a6e-8ed2-8c14a2d0fae5">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="UNKNOWN" exact-version="0" />
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
       <secret-storage>master_key</secret-storage>
       <schema-mapping />
     </data-source>
     <data-source name="intersystems  IRIS" uuid="13147b8c-b18e-47b1-8f27-111b0d542c5e">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="UNKNOWN" exact-version="0" />
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
       <secret-storage>master_key</secret-storage>
       <schema-mapping />
     </data-source>
     <data-source name="intersystems  IRIS [3]" uuid="4884be65-79b3-4629-a0fe-77e5e8a61475">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="UNKNOWN" exact-version="0" />
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
       <secret-storage>master_key</secret-storage>
       <schema-mapping />
     </data-source>

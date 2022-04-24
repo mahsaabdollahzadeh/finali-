@@ -2,27 +2,27 @@ from django.db import models
 
 # Create your models here.
 
-class airfield(models.model):
-    airfield_name=models.charfield(max_length=150)
-    airfield_cityname=models.charfield(max_length=250)
+class airfield(models.Model):
+    airfield_name=models.CharField(max_length=150)
+    airfield_cityname=models.CharField(max_length=250)
 
 
-class fly(models.model):
-    starting-city=models.charfield(max_length=200)
-    starting-airfield=models.charfield(max_length=150)
-    destination-city=models.charfield(max_length=200)
-    destination-airfield=models.charfield(max_length=150)
-    d-time=models.datetimefield()
-    price=models.floatfield()
-    transport=models.charfield(max_length=200)
+class fly(models.Model):
+    city_start = models.CharField(max_length=200)
+    airfield_start = models.CharField(max_length=150)
+    destination_city = models.CharField(max_length=200)
+    destination_airfield = models.CharField(max_length=150)
+    d_time = models.DateTimeField()
+    price = models.FloatField()
+    transport = models.CharField(max_length=200)
 
 
-class airplane(models.model):
-    plane=models.charfield(max_length=100)
-    volume=models.integerfield()
+class airplane(models.Model):
+    plane=models.CharField(max_length=100)
+    volume=models.IntegerField()
 
-class transport(models.model):
-    rank=models.integerfield()
-    company=models.charfield(max_length=100)
+class transport(models.Model):
+    rank=models.IntegerField()
+    company=models.CharField(max_length=100)
 
 
