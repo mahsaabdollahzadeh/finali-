@@ -10,6 +10,35 @@
           <node kind="schema" negative="1" />
         </introspection-scope>
       </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>cbf17f6d-47d2-4258-b437-eeb9eebaa9a5</ssh-config-id>
+      </ssh-properties>
+      <ssl-config>
+        <client-cert>Communications link failure  The last packet sent successfully to the server was ۰ milliseconds ago. The driver has not received any packets from the server.</client-cert>
+        <enabled>false</enabled>
+        <mode>REQUIRE</mode>
+      </ssl-config>
+    </data-source>
+    <data-source name="intersystems  IRIS [2]" uuid="8253bf0d-f14f-4a6e-8ed2-8c14a2d0fae5">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="UNKNOWN" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping />
+    </data-source>
+    <data-source name="intersystems  IRIS" uuid="13147b8c-b18e-47b1-8f27-111b0d542c5e">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="UNKNOWN" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping />
+    </data-source>
+    <data-source name="intersystems  IRIS [3]" uuid="4884be65-79b3-4629-a0fe-77e5e8a61475">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="UNKNOWN" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping />
+    </data-source>
+    <data-source name="postgres@localhost" uuid="d7e4640a-8466-4b73-aef9-e9c29a3d2076">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping />
     </data-source>
   </component>
 </project>

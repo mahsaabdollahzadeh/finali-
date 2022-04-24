@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="d06b546e-5af1-4610-aa15-f6bddbeee99e" name="intersystems  IRIS Mapping">
+      <data-sources db="13147b8c-b18e-47b1-8f27-111b0d542c5e" />
+      <scope>
+        <node kind="database" negative="1">
+          <node kind="schema" negative="1" />
+        </node>
+      </scope>
+    </mapping>
+  </component>
+</project>
